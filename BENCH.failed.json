@@ -1,0 +1,10 @@
+{
+  "project": "HUYGENS",
+  "category": "SCIENTIFIC_LAB",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\SCIENTIFIC_LAB\\HUYGENS",
+  "status": "failed",
+  "reason": "no 40-hex git HEAD SHA (head=None; sanitized clone or .git absent)",
+  "files_count": 99,
+  "lines_of_code": 9174,
+  "sha": null
+}

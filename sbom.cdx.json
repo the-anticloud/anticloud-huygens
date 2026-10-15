@@ -1,0 +1,152 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:a7143c6c-db75-5362-ab6d-689a131656aa",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T06:33:28Z",
+  "component": {
+   "type": "application",
+   "name": "HUYGENS",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/HUYGENS@83b357604d34",
+   "purl": "pkg:generic/anticloud/HUYGENS@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "markdown",
+   "version": "==3.1.1",
+   "purl": "pkg:pypi/markdown@3.1.1",
+   "bom-ref": "pypi/markdown@==3.1.1"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": "==1.16.4",
+   "purl": "pkg:pypi/numpy@1.16.4",
+   "bom-ref": "pypi/numpy@==1.16.4"
+  },
+  {
+   "type": "library",
+   "name": "pybind11",
+   "version": "==2.2.4",
+   "purl": "pkg:pypi/pybind11@2.2.4",
+   "bom-ref": "pypi/pybind11@==2.2.4"
+  },
+  {
+   "type": "library",
+   "name": "mako",
+   "version": "==1.0.12",
+   "purl": "pkg:pypi/mako@1.0.12",
+   "bom-ref": "pypi/mako@==1.0.12"
+  },
+  {
+   "type": "library",
+   "name": "pyparsing",
+   "version": "==2.4.0",
+   "purl": "pkg:pypi/pyparsing@2.4.0",
+   "bom-ref": "pypi/pyparsing@==2.4.0"
+  },
+  {
+   "type": "library",
+   "name": "cycler",
+   "version": "==0.10.0",
+   "purl": "pkg:pypi/cycler@0.10.0",
+   "bom-ref": "pypi/cycler@==0.10.0"
+  },
+  {
+   "type": "library",
+   "name": "pyopencl",
+   "version": "==2018.2.5",
+   "purl": "pkg:pypi/pyopencl@2018.2.5",
+   "bom-ref": "pypi/pyopencl@==2018.2.5"
+  },
+  {
+   "type": "library",
+   "name": "cmocean",
+   "version": "==2.0",
+   "purl": "pkg:pypi/cmocean@2.0",
+   "bom-ref": "pypi/cmocean@==2.0"
+  },
+  {
+   "type": "library",
+   "name": "matplotlib",
+   "version": "==3.1.0",
+   "purl": "pkg:pypi/matplotlib@3.1.0",
+   "bom-ref": "pypi/matplotlib@==3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "opencv-python",
+   "version": "==4.1.0.25",
+   "purl": "pkg:pypi/opencv-python@4.1.0.25",
+   "bom-ref": "pypi/opencv-python@==4.1.0.25"
+  },
+  {
+   "type": "library",
+   "name": "pyquaternion",
+   "version": "==0.9.5",
+   "purl": "pkg:pypi/pyquaternion@0.9.5",
+   "bom-ref": "pypi/pyquaternion@==0.9.5"
+  },
+  {
+   "type": "library",
+   "name": "jupyter",
+   "version": "==1.0.0",
+   "purl": "pkg:pypi/jupyter@1.0.0",
+   "bom-ref": "pypi/jupyter@==1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "PyOpenGL",
+   "version": "==3.1.0",
+   "purl": "pkg:pypi/pyopengl@3.1.0",
+   "bom-ref": "pypi/PyOpenGL@==3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "PyQt5",
+   "version": "==5.12.2",
+   "purl": "pkg:pypi/pyqt5@5.12.2",
+   "bom-ref": "pypi/PyQt5@==5.12.2"
+  },
+  {
+   "type": "library",
+   "name": "vispy",
+   "version": "==0.5.3",
+   "purl": "pkg:pypi/vispy@0.5.3",
+   "bom-ref": "pypi/vispy@==0.5.3"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}

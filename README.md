@@ -1,14 +1,12 @@
 # HUYGENS
 
-> About HandyBeam See the acoustic field. A python package to simulate output of phased arrays. Super fast calculations with Huygens model implementation for OpenCL/GPU. virtual measurement tools useful for education and research in beam forming, e.g. focal spot size measure, side lobe measures, e.t.c
+> huygens This is a python package for drawing diagrams. Intended to have multiple backends, currently the only backend implemented uses [cairo](https://www.cairographics.org/).
 
-**Category:** SCIENTIFIC_LAB · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/ultraleap/HandyBeam · **Pinned commit:** `9f80b97742cde4b75d3478d554dc9bc2cd9dfd96` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/ultraleap/HandyBeam` as the implementation for the `HUYGENS` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** SCIENTIFIC_LAB · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/punkdit/huygens · **Pinned commit:** `f0f470c833cb6ba1bdfd8e621857c9a75da75ee3` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-About HandyBeam See the acoustic field. A python package to simulate output of phased arrays. Super fast calculations with Huygens model implementation for OpenCL/GPU. virtual measurement tools useful for education and research in beam forming, e.g. focal spot size measure, side lobe measures, e.t.c
+huygens This is a python package for drawing diagrams. Intended to have multiple backends, currently the only backend implemented uses [cairo](https://www.cairographics.org/).
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -62,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-7425b733014df44d072d7a244701c4d578491a86ac31fe36a6c038ea0725bba3
+a0a5ec2365639053edd13560d36ca3112fd5d3086f35deaa7fbc42c8e5d03339
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
